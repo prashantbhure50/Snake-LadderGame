@@ -6,7 +6,8 @@ namespace Snake_LadderGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to Snake Ladder Game");
+            int player1 = 0;
         }
     }
 }
