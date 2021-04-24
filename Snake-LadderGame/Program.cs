@@ -10,6 +10,12 @@ namespace Snake_LadderGame
             int player1 = 0;
             Random random = new Random();
             int dice = random.Next(0, 7);
+            int snake = random.Next(0, 7);
+            player1 = Method.PositionCheck(dice, player1, snake);
+
+            Console.WriteLine("dice " + dice);
+
+            Console.WriteLine("snake " + snake);
         }
     }
 }
