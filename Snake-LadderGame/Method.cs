@@ -8,6 +8,7 @@ namespace Snake_LadderGame
     {
         public static int PositionCheck(int dice, int player, int snake)
         {
+
             switch (dice)
             {
                 case 1:
@@ -34,5 +35,6 @@ namespace Snake_LadderGame
                 player = player - snake;
             return player;
         }
+        
     }
 }
