@@ -19,6 +19,7 @@ namespace Snake_LadderGame
 
                 Console.WriteLine("snake " + snake);
             }
+            Console.WriteLine(player1);
         }
     }
 }
